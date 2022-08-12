@@ -11,6 +11,7 @@
   width: max-content;
   margin: auto;
   color: #fff;
+  margin-top: 16px;
 }
 
 .convert {
@@ -39,7 +40,7 @@
   }
 
   &__item {
-    width: 220px;
+    width: 350px;
     gap: 8px;
   }
 }

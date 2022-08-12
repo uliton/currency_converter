@@ -99,10 +99,10 @@ export const App = () => {
                     type="button"
                     className="item__wrapper--button"
                     onClick={() => {
-                      if (leftQuery === undefined) {
+                      if (leftQuery === undefined && leftCurrencyRate) {
                         setLeftQuery(1);
-                      } else {
-                        setLeftQuery(+leftQuery + 1);
+                      } else if (leftCurrencyRate) {
+                        setLeftQuery(Number(leftQuery) + 1);
                       }
                     }}
                   >
@@ -113,7 +113,7 @@ export const App = () => {
                     className="item__wrapper--button"
                     onClick={() => {
                       if (leftQuery - 1 > 0) {
-                        setLeftQuery(+leftQuery - 1);
+                        setLeftQuery(Number(leftQuery) - 1);
                       }
                     }}
                   >
@@ -176,10 +176,10 @@ export const App = () => {
                     type="button"
                     className="item__wrapper--button"
                     onClick={() => {
-                      if (rightQuery === undefined) {
+                      if (rightQuery === undefined && rightCurrencyRate) {
                         setRightQuery(1);
-                      } else {
-                        setRightQuery(+rightQuery + 1);
+                      } else if (rightCurrencyRate) {
+                        setRightQuery(Number(rightQuery) + 1);
                       }
                     }}
                   >
@@ -190,7 +190,7 @@ export const App = () => {
                     className="item__wrapper--button"
                     onClick={() => {
                       if (rightQuery - 1 > 0) {
-                        setRightQuery(+rightQuery - 1);
+                        setRightQuery(Number(rightQuery) - 1);
                       }
                     }}
                   >
