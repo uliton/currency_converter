@@ -1,9 +1,5 @@
-# React Starter Pack
+## ITop1000
 
-To use this template click `Use this template`
+# Конвертер валют
 
-### Available Scripts
-
-`Deploy` - available to deploy your application to gh-pages
-
-`SCSS Preprocessor` - available to write your styles with modern style language
+`[DEMO LINK](https://uliton.github.io/itop1000/)`
