@@ -1,6 +1,6 @@
 ## Конвертер валют
 
-[DEMO LINK](https://uliton.github.io/itop1000/)
+[DEMO LINK](https://uliton.github.io/currency_converter/)
 
 <br />
 

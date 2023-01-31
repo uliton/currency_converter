@@ -1,6 +1,6 @@
 {
-  "homepage": ".",
-  "name": "react-starter-pack",
+  "homepage": "https://uliton.github.io/currency_converter/",
+  "name": "currency_converter",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
